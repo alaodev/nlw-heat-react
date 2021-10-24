@@ -1,0 +1,20 @@
+.contentWrapper {
+  column-gap: 120px;
+  display: grid;
+  grid-template-columns: 1fr 453px;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.contentSigned::before {
+  background: url(./assets/background.svg) no-repeat;
+  background-size: cover;
+  content: '';
+  height: 100vh;
+  position: absolute;
+  right: -200px;
+  top: 0;
+  width: 420px;
+}
